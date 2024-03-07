@@ -46,7 +46,7 @@ jobs:
 
     strategy:
       matrix:
-        arch: [Win32, x64]
+        arch: [Win32, x64, ARM64]
         generator: ["", "Ninja Multi-Config"]
 
     env:
